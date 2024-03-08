@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/imageboard-v01/",
+    "build": "vite build --base=/imageboard-v1/",
     "preview": "vite preview"
   },
   "devDependencies": {
