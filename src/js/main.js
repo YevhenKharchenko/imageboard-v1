@@ -106,5 +106,3 @@ function renderPosts(posts) {
     });
   });
 }
-
-getPosts();
