@@ -22,12 +22,12 @@ const gallery = document.querySelector('.gallery');
 const form = document.querySelector('.form');
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyCsA2GGOUbgQvviHSwmuoNUYnbKV6S1Sa4',
-  authDomain: 'imageboard-v01.firebaseapp.com',
-  projectId: 'imageboard-v01',
-  storageBucket: 'imageboard-v01.appspot.com',
-  messagingSenderId: '436664988683',
-  appId: '1:436664988683:web:e31047700b07fc4ada430e',
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
 };
 
 initializeApp(firebaseConfig);
